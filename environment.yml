@@ -1,0 +1,15 @@
+name: cifar10-a3
+channels:
+  - conda-forge
+dependencies:
+  - python=3.12.7
+  - pip
+  - jupyter
+  - nbconvert
+  - pip:
+      - numpy==2.5.4
+      - torch==2.7.0
+      - torchvision==0.22.0
+      - scikit-learn==1.9.1
+      - matplotlib==3.11.2
+      - tqdm==4.67.1
